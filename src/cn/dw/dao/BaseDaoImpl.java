@@ -53,12 +53,6 @@ public abstract class BaseDaoImpl<T> {
 	
 	}
 	
-	
-	
-	
-	
-	
-	
 
 	// 1:编写一个方法,实现save,update,delete的功能,此方法仅仅交给子类调用
 	// 2:共性的代码父类实现,个性代码通过子类传入
