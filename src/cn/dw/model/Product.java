@@ -4,6 +4,11 @@ import java.sql.Date;
 
 //此类事model 类->表，对象->记录，属性->字段
 public class Product {
+	@Override
+	public String toString() {
+		return "Product [id=" + id + ", name=" + name + ", price=" + price + ", remark=" + remark + ", date=" + date
+				+ "]";
+	}
 	private Integer id;
 	private String name;
 	private Double price;
