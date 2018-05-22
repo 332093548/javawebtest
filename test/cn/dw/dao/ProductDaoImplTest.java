@@ -32,20 +32,21 @@ public class ProductDaoImplTest {
 		daoImpl = null;
 	}
 
-//	@Test
-//	public void testQueryByName() {
-//		// "%%":代表查询所有记录
-//		List<Product> proList = daoImpl.queryByName("");
-//		for (Product temp : proList) {
-//			System.out.println(temp + "=======>" + temp.toString());
-//		}
-//	}
-//	
-//	@Test
-//	public void testGetById() {
-//		// "%%":代表查询所有记录
-//		System.out.println(daoImpl.getById(4));
-//	}
+	@Test
+	public void testQueryByName() {
+		// "%%":代表查询所有记录
+		List<Product> proList = daoImpl.queryByName("",2,3);
+		for (Product temp : proList) {
+			System.out.println(temp + "=======>" + temp.toString());
+		}
+	}
+	
+	@Test
+	public void testGetById() {
+		// "%%":代表查询所有记录
+		System.out.println(daoImpl.getById(4));
+	}
+	
 
 	@Test
 	public void testDelete() {

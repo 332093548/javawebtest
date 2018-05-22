@@ -13,4 +13,5 @@ create table product
 insert into product (name,price,remark) values ('computer',3000.00,'test....');
 insert into product (name,price,remark) values ('Iphone6',6000.00,'test.....');
 
-select * from product;
+-- (page-1)*size =5
+select * from product where name like "%xyz%" limit 5,5;
