@@ -61,9 +61,9 @@ public class ProductDaoImplTest {
 
 	@Test
 	public void testSave() {
-		System.out.println("save........");
+		//System.out.println("save........");
 		Product product = new Product();
-		product.setName("sss~~~~~");
+		product.setName("demo~~~~~");
 		product.setPrice(3.14);
 		product.setRemark("remark");
 		serviceImpl.save(product);
